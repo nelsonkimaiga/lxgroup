@@ -74,7 +74,7 @@ html, body {
 }
 
 body {
-    background: #1b308a;
+    background: #FFFFFF;
     font-family: 'Raleway', serif;
     font-size: 1.7rem;
     font-style: normal;
@@ -1462,7 +1462,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 140px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1650,6 +1650,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 42px;
     font-family: 'Raleway', serif;
     font-size: 1.3rem;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #1B308A;
@@ -1793,7 +1794,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: 'Raleway', serif;
     font-size: 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+    color: #1b308a;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -1805,9 +1807,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h1 {
     font-family: 'Raleway', serif;
     font-size: 6.3rem;
+    font-weight: normal;
     line-height: 1.333;
     margin-top: 0;
-    color: #FFFFFF;
+    color: #1b308a;
 }
 
 .home-content__main {
@@ -1822,8 +1825,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn {
     width: 230px;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    border-color: #1b308a;
+    color: #1b308a;
+    font-weight: bold;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2201,7 +2205,7 @@ html.no-csstransitions .home-content__main {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
     background-color: #1B308A;
-    color: #010507;
+    color: #FFFFFF;
     position: relative;
 }
 
