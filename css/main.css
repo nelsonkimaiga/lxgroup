@@ -3610,7 +3610,14 @@ footer .row {
     height: 100%;
 }
 
-
+.callout {
+    margin: 0 0 1rem;
+    padding: 0.6rem;
+    border: 1px solid #fff;
+    border-radius: 0;
+    position: relative;
+    color: #FFFFFF;
+}
 
 
 /*# sourceMappingURL=main.css.map */
