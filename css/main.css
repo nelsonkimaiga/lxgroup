@@ -1247,7 +1247,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #FFFFFF;
+    color: #1f1d5e;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2952,7 +2952,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #545454;
+    background-color: #fff;
 }
 
 .s-contact .form-field {
@@ -3004,8 +3004,8 @@ html.no-csstransitions .home-content__main {
 
 .contact-content {
     max-width: 1000px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    background-color: #fff;
+    color: #1f1d5e;
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: 'Raleway', serif;
@@ -3017,7 +3017,7 @@ html.no-csstransitions .home-content__main {
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;
-    color: #FFFFFF;
+    color: #1f1d5e;
 }
 
 .contact-content h5 {
@@ -3034,7 +3034,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: #FFFFFF;
+    color: #1f1d5e;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3048,7 +3048,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
+    color: #1f1d5e;
     border-bottom: 1px solid #1B308A;
 }
 
@@ -3059,31 +3059,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #FFFFFF;
+    color: #1f1d5e;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #FFFFFF;    /* Firefox 18- */
+    color: #1f1d5e;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #FFFFFF;    /* Firefox 19+ */
+    color: #1f1d5e;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #FFFFFF;
+    color: #1f1d5e;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #FFFFFF; !important;
+    color: #1f1d5e; !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3110,7 +3110,7 @@ html.no-csstransitions .home-content__main {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #121212;
+    background-color: #fff;
 }
 
 .contact-secondary .contact-info {
@@ -3135,7 +3135,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-social li a {
-    color: white;
+    color: #1f1d5e;
 }
 
 .contact-social li a:hover, 
@@ -3334,13 +3334,13 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    background: #111111;
+    background: #fff;
     padding: 9rem 0 6rem;
     font-family: 'Raleway', serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: #1B308A;
 }
 
 footer h4 {
@@ -3414,33 +3414,33 @@ footer .row {
     background-size: 24px 16px, auto;
     border: none;
     margin-bottom: 1.8rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #1B308A;
 }
 
 .footer-subscribe #mc-form input[type="email"]:focus {
-    color: #FFFFFF;
+    color: #1B308A;
 }
 
 .footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #1B308A;
 }
 
 .footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #1B308A;
     /* Firefox 18- */
 }
 
 .footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #1B308A;
     /* Firefox 19+ */
 }
 
 .footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #1B308A;
 }
 
 .footer-subscribe #mc-form input[type="email"].placeholder {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: #1B308A;
 }
 
 .footer-subscribe #mc-form input[type=submit] {
