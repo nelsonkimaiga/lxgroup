@@ -1222,7 +1222,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: #1f1d5e;
 }
 
 .display-2 {
@@ -2203,8 +2203,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 8.1rem;
     padding-bottom: 15rem;
-    background-color: #1f1d5e;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #1f1d5e;
     position: relative;
 }
 
@@ -3618,5 +3618,28 @@ footer .row {
     color: #FFFFFF;
 }
 
+.about-row .column {
+    background-color: #1f1d5e;
+    color: #FFF;
+    padding: 3rem;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    margin: 3px;
+}
+
+.one-third.column{ width: 30.6666666667%; }
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+  .container:after, .row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*# sourceMappingURL=main.css.map */
