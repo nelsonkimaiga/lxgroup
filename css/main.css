@@ -1,4 +1,4 @@
-/* =================================================================== 
+ =================================================================== 
  *
  *  Glint v1.0 Main Stylesheet
  *  11-20-2017
@@ -3012,6 +3012,7 @@ html.no-csstransitions .home-content__main {
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
+    font-weight: bold;
 }
 
 .contact-content h3 {
@@ -3642,4 +3643,9 @@ footer .row {
     clear: both;
 }
 
-/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+/*# sourceMappingURL=main.css.map 
