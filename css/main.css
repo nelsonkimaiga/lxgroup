@@ -3012,7 +3012,6 @@ html.no-csstransitions .home-content__main {
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
-    font-weight: bold;
 }
 
 .contact-content h3 {
@@ -3456,7 +3455,7 @@ footer .row {
 
 .footer-subscribe #mc-form label {
     color: #FFFFFF;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Avenir Next Cyr W00 Regular";
     font-size: 1.3rem;
     padding: 0 2rem;
 }
