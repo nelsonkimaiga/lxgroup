@@ -49,7 +49,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="images/logo.jpg" alt="Homepage">
             </a>
         </div>
 
@@ -64,7 +64,6 @@
                     <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="about">About</a></li>
                     <div class="Downloadscontainer">
-
                         <li><a href="#">Our Businesses</a>
                         <ul style="list-style-type: none; font-size: 1.3rem;">
                             <li><a class="smoothscroll" href="#" title="activities">Automotive Sales and Tuning</a></li>
@@ -78,10 +77,9 @@
                 </div>
                     <script type="text/javascript">
                          $(".Downloadscontainer ul li ul").css("display", "none");
- $(".Downloadscontainer li").click(function (e) {
-     e.stopPropagation();
-     $(this).children('ul').toggle();
- });
+                         $(".Downloadscontainer li").click(function (e) {
+                            e.stopPropagation();
+                            $(this).children('ul').toggle();});
                     </script>
 
                     <li><a href="http://www.lxg-group.com/shop/blog/" title="blog" target="_blank">Blog</a></li>
@@ -264,19 +262,15 @@
                     <fieldset>
 
                         <div class="form-field">
-                            <label>Name</label>
                             <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <label>Email</label>
                             <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <label>Subject</label>
                             <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                         </div>
                         <div class="form-field">
-                            <label>Message</label>
                             <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                         </div>
                         <div class="form-field">
