@@ -2173,7 +2173,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 1px solid #1f1d5e;
+    border-right: 1px solid #fff;
 }
 
 .stats__col:last-child {
@@ -2234,7 +2234,7 @@ html.no-csstransitions .home-content__main {
         border: none;
     }
     .stats__col:nth-child(2n+1) {
-        border-right: 1px solid #1f1d5e;
+        border-right: 1px solid #fff;
     }
 }
 

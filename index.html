@@ -67,8 +67,8 @@
                         <li><a href="#">Our Businesses</a>
                         <ul style="list-style-type: none; font-size: 1.3rem;">
                             <li><a class="smoothscroll" href="#" title="activities">Automotive Sales and Tuning</a></li>
-                            <li><a class="smoothscroll" href="#" title="activities">Consulting Services</a></li>
                             <li><a class="smoothscroll" href="#" title="activities">Building and Construction</a></li>
+                            <li><a class="smoothscroll" href="#" title="activities">Consulting Services</a></li>
                             <li><a class="smoothscroll" href="#" title="activities">Entertainment and Recreation</a></li>
                             <li><a class="smoothscroll" href="#" title="activities">Foods and Beverages</a></li>
                             <li><a class="smoothscroll" href="#" title="activities">Realty</a></li>
@@ -82,11 +82,19 @@
                             e.stopPropagation();
                             $(this).children('ul').toggle();});
                     </script>
-                    <li><a href="#">Team</a></li>
-                    <ul style="list-style-type: none; font-size: 1.3rem;">
-                        <li><a class="smoothscroll" href="#" title="team">Board</a></li>
-                        <li><a class="smoothscroll" href="#" title="team">Management</a></li>
-                    </ul>
+                    <div class="TeamContainer">
+                        <li><a href="#">Team</a>
+                        <ul style="list-style-type: none; font-size: 1.3rem;">
+                            <li><a class="smoothscroll" href="#" title="team">Board</a></li>
+                            <li><a class="smoothscroll" href="#" title="team">Management</a></li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                         $(".TeamContainer ul li ul").css("display", "none");
+                         $(".TeamContainer li").click(function (x) {
+                            x.stopPropagation();
+                            $(this).children('ul').toggle();});
+                    </script>
                     <li><a href="http://www.lxg-group.com/shop/blog/" title="blog" target="_blank">Blog</a></li>
                     <li><a href="http://www.lxg-group.com/shop/" title="SHOP" target="_blank">Shop</a></li>
                     <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
@@ -163,27 +171,27 @@
         <!-- 3 columns -->
 <div class="row about-stats stats block-1-3 block-m-1-2 block-mob-full aos-init aos-animate" data-aos="fade-up">
                 
-            <div class="col-block stats__col ">
-                <h5 class="h5" style="text-align: center; color: #1f1d5e;"><i class="fa fa-info-circle" aria-hidden="true"></i></i> About Us</h5>
-                    <p style="text-align: justify;">
+            <div class="col-block stats__col " style="background-color: #1f1d5e;">
+                <h5 class="h5" style="text-align: center; color: #fff;"><i class="fa fa-info-circle" aria-hidden="true"></i></i> About Us</h5>
+                    <p style="text-align: justify; color: #fff;">
                     LXG Group is a diversified <br> organization that focuses on <br> investment and management <br> solutions for its subsidiaries, <br>joint ventures as well as for <br> independent clients. We seek to <br> leave our clients with an experience <br> that is simply extra-ordinary.
                     </p>         
             </div>
-            <div class="col-block stats__col">
-                 <h5 class="h5" style="text-align: center; color: #1f1d5e;"><i class="fa fa-caret-up" aria-hidden="true"></i> Group PSV</h5>
-                    <p style="text-align: justify;">
+            <div class="col-block stats__col" style="background-color: #1f1d5e;">
+                 <h5 class="h5" style="text-align: center; color: #fff;"><i class="fa fa-caret-up" aria-hidden="true"></i> Group PSV</h5>
+                    <p style="text-align: justify; color: #fff;">
                         Our PSV Trinity serves to represent <br> the foundations that guide us in <br> achieving the extra element in an <br> ordinary event that creates a <br> positive outcome to our businesses <br> and clients which are:
                     </p>
-                    <ul type="square" style="text-align: left; list-style-type: none;">
+                    <ul type="square" style="text-align: left; list-style-type: none; color: #fff;">
                         <li><i class="fa fa-handshake-o"></i> Partnership</li>
                         <li><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Skillset</li>
                         <li><i class="fa fa-line-chart" aria-hidden="true"></i> Value</li>
                     </ul>
             </div>
-            <div class="col-block stats__col">
-                <h5 class="blockquote-title" style="text-align: center; color: #1f1d5e;"><i class="fa fa-area-chart" aria-hidden="true"></i> Vision and Mission
+            <div class="col-block stats__col" style="background-color: #1f1d5e;">
+                <h5 class="blockquote-title" style="text-align: center; color: #fff;"><i class="fa fa-area-chart" aria-hidden="true"></i> Vision and Mission
                 </h5>
-                    <p style="text-align: justify;">
+                    <p style="text-align: justify; color: #fff;">
                         LXG Group will continue to look over and <br> beyond the realms of the ordinary to enable <br> it to become the leading provider of <br> business solutions for Africa. As the world <br> shines it's light on Africa, LXG Group will be <br> there to harness these opportunities and <br> impact business activities that will make it <br> an extraordinary continent.
                     </p>
                     <h4 class="blockquote-title" style="color: #FFFFFF;">Mision</h4>
