@@ -561,7 +561,6 @@ textarea,
 select {
     display: block;
     height: 6rem;
-    padding: 1.5rem 0;
     outline: none;
     color: #333333;
     font-family: "Avenir Next Cyr W00 Regular";
@@ -789,9 +788,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #e5ebf0;
+    /*background: #e5ebf0;*/
     border-color: #e5ebf0;
-    color: #111111;
+    color: #fff;
 }
 
 
@@ -2696,7 +2695,6 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: .55;
     padding: 1.5rem 2.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
