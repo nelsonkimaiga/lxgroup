@@ -1444,7 +1444,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-    color: white;
+    color: #b79107;
 }
 
 .header-nav h3 {
@@ -3941,5 +3941,30 @@ footer .row {
   flex-grow: 1;
   max-width: 100%;
 }
+
+
+/*servicetemplate*/
+.services-header{
+    position: relative;
+    margin-top:120px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 70px;
+    left: 16px;
+}
+
+
+.banner-text h2{
+    font-family: "Avenir Next Cyr W00 Demi";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
 
 /*# sourceMappingURL=main.css.map 
