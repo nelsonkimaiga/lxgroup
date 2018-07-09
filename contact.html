@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Transport and Logistics - LXG Group</title>
+    <title>Contact Us - LXG Group</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -42,7 +42,8 @@
 </head>
 
 <body id="top">
-        <!-- header
+
+    <!-- header
     ================================================== -->
     <header class="s-header">
 
@@ -79,12 +80,14 @@
                          $(".Downloadscontainer ul li ul").css("display", "none");
                          $(".Downloadscontainer li").click(function (e) {
                             e.stopPropagation();
-                            $(this).children('ul').toggle();});
+                            $(this).children('ul').toggle();
+                        }
+                            );
                     </script>
                     <div class="TeamContainer">
                         <li><a href="#">Team</a>
                         <ul style="list-style-type: none; font-size: 1.3rem;">
-                            <li><a href="#" title="team">Board</a></li>
+                            <li><a href="google.com" title="team">Board</a></li>
                             <li><a href="#" title="team">Management</a></li>
                         </ul>
                     </div>
@@ -122,28 +125,124 @@
         </a>
 
     </header>
-    <!-- end s-header -->
-    <div class="row services-header">
-        <img src="http://www.centum.co.ke/images/inner/agribusiness.jpg" style="width: 100%; height: 230px;">
-        <div class="banner-text">
-            <h2>Consultancy</h2>
+
+
+        <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact" style="margin-top:120px;">
+
+        <div class="overlay"></div>
+<!--         <div class="contact__line"></div> -->
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+            </div>
         </div>
-    </div>
-    <!-- end banner -->
-    <br>
-    <div class="row description-text">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <div class="row contact-content" data-aos="fade-up">
 
-<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            <div class="contact-primary">
 
-<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
-    </div>
+                <h3 class="h6">Send Us A Message</h3>
 
-<!-- footer
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary">Submit</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div>
+            <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5 style="color: #1f1d5e;">Where to Find Us</h5>
+                        <p style="color: #1f1d5e;">
+                            International House, 10<sup>th</sup>floor<br> Mama Ngina Street<br> 
+                            P.O. Box 6872 – 00100<br>
+                            Nairobi. Kenya
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5 style="color: #1f1d5e;">Email Us At</h5>
+                        <p>
+                         <a href="mailto:info@lxg-group.com">info@lxg-group.com</a><br>
+
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5 style="color: #1f1d5e;">Call Us At</h5>
+                        <p style="color: #1f1d5e;">
+                            Mobile Line 1: +254780904595<br> Mobile Line 2: +254720904595<br>
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/lxg-group/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <!-- end contact-social -->
+
+                </div>
+                <!-- end contact-info -->
+            </div>
+            <!-- end contact-secondary -->
+
+        </div>
+        <!-- end contact-content -->
+
+    </section>
+    <!-- end s-contact -->
+
+     <!-- footer
     ================================================== -->
     <footer>
 
