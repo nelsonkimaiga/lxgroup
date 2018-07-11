@@ -2217,7 +2217,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .about-desc {
-        font-size: 2rem;
+        font-size: 1.6rem;
         max-width: 940px;
     }
     .about-stats {
