@@ -67,7 +67,7 @@
                         <ul style="list-style-type: none; font-size: 1.3rem;">
                             <li><a href="consultancy.html" title="activities">Consulting Services</a></li>
                             <li><a href="building-construction.html" title="activities">Building and Construction</a></li>
-                            <li><a href="supply-management.html" title="activities">Supply Management</a></li>
+                            <li><a href="supply-management.html" title="activities">Supply Chain Management</a></li>
                             <li><a href="automotive-sales.html" title="activities">Automotive Sales and Tuning</a></li>
                             <li><a href="transport-logistics.html" title="activities">Transport and Logistics</a></li>
                             <li><a href="food-and-beverage.html" title="activities">Foods and Beverages</a></li>
@@ -151,25 +151,60 @@
     </div>
 
     <div class="col-block" align="center">
-        <a href="" target="">
+        <a>
             <ul class="img-list">
                 <li>
                     <img class="pic" src="images/filbert-2.jpg">
-                    <h4 class="card-title">Filbert C. Chami</h4>
+                    <h4 class="card-title" style="margin-top: 0px;">Filbert C. Chami</h4>
                     <h6 class="card-subtitle mb-2 text-muted">Chairman and Chief Executive</h6>
-                    <span class="text-content">
-                        <span>
-                            <br>
-                            <i class="tumbua" style="text-align: justify;">Mr. Chami has over 10 years in Financial Management, Analysis, Investment and Risk management amongst others. This has seen him practice across the African continent and in Europe with his most recent position based in Sweden. He holds an <br> MBA – Finance and Strategic Management from United States International University (USIU), a Bachelor of Science in Actuarial Science from the University of Nairobi and a Bachelor of Commerce – Finance and Accounting from Strathmore University. He is also a qualified accountant, CPA(K), from Strathmore University.
-</i>
-                            <br>
-                        </span>
-                    </span>
+                    <div class="card-footer">
+                        <a href="mailto:fchami@lxg-group.com">fchami@lxg-group.com</a>
+                    </div>
+                    <button id="myBtn">Read Bio</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                                <h2>Filbert C. Chami</h2>
+                            </div>
+                            <div class="modal-body">
+                              <p style="text-align: justify;">Mr. Chami has over 10 years in Financial Management, Analysis, Investment and Risk management amongst others. This has seen him practice across the African continent and in Europe with his most recent position based in Sweden. He holds an MBA – Finance and Strategic Management from United States International University (USIU), a Bachelor of Science in Actuarial Science from the University of Nairobi and a Bachelor of Commerce – Finance and Accounting from Strathmore University. He is also a qualified accountant, CPA(K), from Strathmore University.</p>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </a>
     </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
 
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+</script>
     <div class="col-block">
         <div class="card h-100 text-center" style="visibility: hidden;">
             <img class="card-img-top rounded-circle" src="http://placehold.it/750x450" alt="">
@@ -203,6 +238,9 @@
                             </a>
                             <a href="https://www.aaro.se" title="AARO" target="_blank" class="">
                                 <img src="images/clients/aaro-logo.png" />
+                            </a>
+                            <a href="http://www.sbsl.co.ke" title="SBSL" target="_blank" class="">
+                                <img src="images/sbsl.jpg">
                             </a>
                         </div>
                         <!-- end clients -->
