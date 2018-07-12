@@ -3954,13 +3954,13 @@ footer .row {
 /*servicetemplate*/
 .services-header{
     position: relative;
-    margin-top:120px;
+    margin-top:100px;
 }
 
 .banner-text{
     position: absolute;
-    top: 70px;
-    left: 16px;
+    top: 30px;
+    left: 26px;
 }
 
 
@@ -3968,7 +3968,7 @@ footer .row {
     font-family: "Avenir Next Cyr W00 Demi";
     color: #fff;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     letter-spacing: -1px;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -4076,8 +4076,9 @@ span.text-content {
         -webkit-filter: grayscale(1);
         filter: grayscale(1);
         width: 100%;
-        margin-top: 20px; } 
-    }
+        margin-top: 20px;
+    } 
+}
 
 
 span.text-content {
@@ -4140,3 +4141,12 @@ span.text-content {
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
     transition: opacity 500ms; }
+
+.mainimagewrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.mainimagewrap > * {
+    transition: all 0.5s ease-in-out;
+}
