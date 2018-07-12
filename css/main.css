@@ -18,7 +18,7 @@ html, body {
 
 body {
     background: #FFFFFF;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -54,7 +54,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -129,7 +129,7 @@ p img {
 }
 
 p.lead {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.8;
@@ -151,11 +151,11 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
 }
 
 strong, b {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
 }
 
 small {
@@ -175,14 +175,14 @@ blockquote:before {
     line-height: 0px;
     margin: 0;
     color: rgba(0, 0, 0, 0.25);
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     position: absolute;
     top: 3.6rem;
     left: 0;
 }
 
 blockquote p {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     padding: 0;
     font-size: 2.1rem;
     line-height: 1.857;
@@ -191,7 +191,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.5;
@@ -368,7 +368,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
 }
 
 th, td {
@@ -379,7 +379,7 @@ th, td {
 
 th {
     color: #000000;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
 }
 
 td {
@@ -563,7 +563,7 @@ select {
     height: 6rem;
     outline: none;
     color: #333333;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
     line-height: 3rem;
     max-width: 100%;
@@ -647,7 +647,7 @@ select:focus {
 }
 
 label, legend {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: .9rem;
@@ -663,7 +663,7 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
     display: inline-block;
     margin-left: 1rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-weight: normal;
     line-height: inherit;
 }
@@ -729,7 +729,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -849,7 +849,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3rem;
     border-radius: 3px;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.5rem;
     line-height: 1.6;
 }
@@ -898,7 +898,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 1.5rem .6rem 0 0;
     font-size: 8.4rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-weight: bold;
     line-height: 6rem;
     text-indent: 0;
@@ -977,7 +977,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 1em;
     position: absolute;
     font-size: 10rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: rgba(0, 0, 0, 0.25);
 }
 
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-weight: bold;
     border: none;
     color: #000000;
@@ -1050,7 +1050,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     margin: .6rem 0 0 0;
     font-size: 1.4rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: #828282;
 }
 
@@ -1076,7 +1076,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: #000000;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -1095,7 +1095,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     right: 0;
     top: -3.6rem;
     display: block;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: #FFFFFF;
     font-size: 1.1rem;
     line-height: 1;
@@ -1155,7 +1155,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 3.8rem;
     line-height: 1.25;
     color: #000000;
@@ -1167,7 +1167,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 2.8rem;
     line-height: 1.255;
     color: #000000;
@@ -1183,7 +1183,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -1415,7 +1415,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav {
     background: #fff;
     color: rgba(255, 255, 255, 0.25);
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
@@ -1448,7 +1448,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav h3 {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 11px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -1470,7 +1470,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__list {
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -1589,7 +1589,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 42px;
     width: 42px;
     line-height: 42px;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -1732,7 +1732,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.6rem;
     font-weight: 100;
     color: #1b308a;
@@ -1745,7 +1745,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 6.3rem;
     font-weight: normal;
     line-height: 1.333;
@@ -1791,7 +1791,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -1839,7 +1839,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home social 
  * ------------------------------------------------------------------- */
 .home-social {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     list-style: none;
     margin: 0;
     position: absolute;
@@ -2181,7 +2181,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 8.4rem;
     line-height: 1;
     color: #FFFFFF;
@@ -2192,7 +2192,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats h5 {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     margin-top: 1.8rem;
     color: #000000;
     font-size: 1.8rem;
@@ -2503,7 +2503,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::after {
     content: "+";
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 2.7rem;
     display: block;
     height: 30px;
@@ -2542,7 +2542,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
     line-height: 1.286;
     color: #FFFFFF;
@@ -2553,7 +2553,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__cat {
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
     line-height: 1.714;
     margin-bottom: 0;
@@ -2733,7 +2733,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
@@ -2757,12 +2757,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__name {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: #000000;
 }
 
 .clients-testimonials .testimonials__pos {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.4rem;
 }
 
@@ -2905,7 +2905,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -2947,7 +2947,7 @@ html.no-csstransitions .home-content__main {
     color: #1f1d5e;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
@@ -3125,7 +3125,7 @@ html.no-csstransitions .home-content__main {
 
 .submit-loader .text-loader {
     display: none;
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;
@@ -3275,7 +3275,7 @@ html.no-csstransitions .home-content__main {
 footer {
     background: #fff;
     padding: 9rem 0 6rem;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 15px;
     line-height: 2;
     text-align: center;
@@ -3394,7 +3394,7 @@ footer .row {
 
 .footer-subscribe #mc-form label {
     color: #FFFFFF;
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     font-size: 1.3rem;
     padding: 0 2rem;
 }
@@ -3664,7 +3664,7 @@ footer .row {
   background-color: #fff;
   background-clip: border-box;
   border-radius: 0.25rem;
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
 }
 
 .card > hr {
@@ -3686,19 +3686,19 @@ footer .row {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
 }
 
 .card-title {
   margin-bottom: 0.75rem;
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
   color: #1f1d5e;
 }
 
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
   color: #1f1d5e;
 }
 
@@ -3719,7 +3719,7 @@ footer .row {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
   color: #1f1d5e;
 }
 
@@ -3735,7 +3735,7 @@ footer .row {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
-  font-family: "Avenir Next Cyr W00 Regular";
+  font-family: "Josefin Sans";
 }
 
 .card-footer:last-child {
@@ -3965,7 +3965,7 @@ footer .row {
 
 
 .banner-text h2{
-    font-family: "Avenir Next Cyr W00 Demi";
+    font-family: "Josefin Sans";
     color: #fff;
     text-transform: uppercase;
     font-size: 2.7rem;
@@ -3995,7 +3995,7 @@ footer .row {
 }
 
 .card-text {
-    font-family: "Avenir Next Cyr W00 Regular";
+    font-family: "Josefin Sans";
     color: #1f1d5e;
 
 }
