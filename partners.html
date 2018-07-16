@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Contact Us - LXG Group</title>
+    <title>Partners - LXG Group</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -23,8 +23,7 @@
     <link rel="stylesheet" href="css/base.min.css">
     <link rel="stylesheet" href="css/vendor.min.css">
     <link rel="stylesheet" href="css/main.min.css">
-
-
+    <link rel="stylesheet" type="text/css" href="css/micons//micons.css">
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -34,6 +33,7 @@
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -62,11 +62,11 @@
                 <h3>Navigation</h3>
 
                 <ul class="header-nav__list">
-                    <li class="current"><a href="index.html" title="home">Home</a></li>
+                    <li class="current"><a href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="about">About</a></li>
                     <div class="Downloadscontainer">
                         <li><a href="#">Our Businesses</a>
-                        <ul style="list-style-type: none; font-size: 1.3rem;">
+                        <ul style="list-style-type: none; font-size: 1.3rem;" class="business-list">
                             <li><a href="consultancy.html" title="activities">Consulting Services</a></li>
                             <li><a href="building-construction.html" title="activities">Building and Construction</a></li>
                             <li><a href="supply-management.html" title="activities">Supply Chain Management</a></li>
@@ -127,126 +127,67 @@
         </a>
 
     </header>
+    <!-- end s-header -->
 
+<section id="services" class="s-services" style="margin-top:130px; color: #1B308A;">
 
-        <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact" style="margin-top:120px;">
-
-        <div class="overlay"></div>
-<!--         <div class="contact__line"></div> -->
-
-        <div class="row section-header" data-aos="fade-up">
+        <div class="row section-header has-bottom-sep aos-init aos-animate" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
+                <h3 class="subhead">Our Partners</h3>
+                <!-- <h1 class="display-2">We are honored to be asoociated with these partners </h1> -->
             </div>
-        </div>
+        </div> <!-- end section-header -->
 
-        <div class="row contact-content" data-aos="fade-up">
+        <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="full-width btn--primary">Submit</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
+            <div class="col-block service-item aos-init aos-animate" data-aos="fade-up">
+                <div class="service-icon">
+                    <a href="http://aaro.se" title="AARO Systems" class="clients__slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 194px;"><img src="images/clients/aaro-logo.png"></a>
                 </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
+                <div class="service-text">
+                    <h3 class="h2" style="color: #1B308A;">Aaro Systems</h3>
+                    <p style="display: block;">A Swedish finance consulting house that focuses on group financial reporting solutions.
+                    </p>
                 </div>
-
             </div>
-            <!-- end contact-primary -->
 
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5 style="color: #1f1d5e;">Where to Find Us</h5>
-                        <p style="color: #1f1d5e;">
-                            International House, 10<sup>th</sup>floor<br> Mama Ngina Street<br> 
-                            P.O. Box 6872 – 00100<br>
-                            Nairobi. Kenya
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5 style="color: #1f1d5e;">Info desk</h5>
-                        <p>
-                         <a href="mailto:info@lxg-group.com">info@lxg-group.com</a><br>
-
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5 style="color: #1f1d5e;">Call Us At</h5>
-                        <p style="color: #1f1d5e;">
-                            Mobile Line 1: +254780904595<br> Mobile Line 2: +254720904595<br>
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/lxg-group/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                    <!-- end contact-social -->
-
+            <div class="col-block service-item aos-init aos-animate" data-aos="fade-up">
+                <div class="service-icon">
+                    <a href="http://arcscene.com" title="Arcsene" class="clients__slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 194px;"><img src="images/arcsene.png"></a>
                 </div>
-                <!-- end contact-info -->
+                <div class="service-text">
+                    <h3 class="h2" style="color: #1B308A;">Arcscene</h3>
+                    <p>The leading architectural and interior planning firm for commercial, residential and institutional design</p>
+                </div>
             </div>
-            <!-- end contact-secondary -->
 
-        </div>
-        <!-- end contact-content -->
+            <div class="col-block service-item aos-init aos-animate" data-aos="fade-up">
+                <div class="service-icon">
+                    <a href="http://www.sbsl.co.ke" title="SBSL" class="clients__slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 194px;"><img src="images/sbsl.jpg"></a>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2" style="color: #1B308A;">SBSL</h3>
+                    <p>A Kenyan consulting firm that has vast experience in Return to Investment and other tailor-made solutions.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item aos-init aos-animate" data-aos="fade-up">
+                <div class="service-icon">
+                    <a href="http://synergy-pro.net" title="Synergy Pro" class="clients__slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 194px;"><img src="images/clients/synergy.png"></a>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2" style="color: #1B308A;">Synergy-pro</h3>
+                    <p>A  regionally based Independent software vendor developing Service management applications that have found wide application across many industries.</p>
+                </div>
+            </div>
+        </div> <!-- end services-list -->
 
     </section>
-    <!-- end s-contact -->
-
-     <!-- footer
+      <!-- footer
     ================================================== -->
-    <footer>
+    <footer id='partners'>
 
         <div class="row footer-main">
 
