@@ -1447,6 +1447,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #b79107;
 }
 
+.Downloadscontainer li ul li a:hover, .business-list li ul li a:hover, ul li a:focus{
+    color: #b79107;
+}
+
 .header-nav h3 {
     font-family: "Josefin Sans";
     font-size: 11px;
@@ -2083,7 +2087,7 @@ html.no-csstransitions .home-content__main {
         display: none;
     }
     .home-content__scroll {
-        bottom: 5.4rem;
+        bottom: 26.4rem;
     }
     .home-content__line {
         height: 7.2rem;
