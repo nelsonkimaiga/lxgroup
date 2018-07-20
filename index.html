@@ -20,6 +20,7 @@
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/base.min.css">
     <link rel="stylesheet" href="css/vendor.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -46,87 +47,107 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.jpg" alt="Homepage">
-            </a>
-        </div>
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-
-                <ul class="header-nav__list">
-                    <li class="current"><a href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                    <div class="Downloadscontainer">
-                        <li><a href="#">Our Businesses</a>
-                        <ul style="list-style-type: none; font-size: 1.3rem;" class="business-list">
-                            <li><a href="consultancy.html" title="activities">Consulting Services</a></li>
-                            <li><a href="building-construction.html" title="activities">Building and Construction</a></li>
-                            <li><a href="supply-management.html" title="activities">Supply Chain Management</a></li>
-                            <li><a href="automotive-sales.html" title="activities">Automotive Sales and Tuning</a></li>
-                            <li><a href="transport-logistics.html" title="activities">Transport and Logistics</a></li>
-                            <li><a href="food-and-beverage.html" title="activities">Foods and Beverages</a></li>
-                            <li><a href="entertainment.html" title="activities">Entertainment and Recreation</a></li>
-                            <li><a href="realty.html" title="activities">Realty</a></li>    
-                        </ul>
-                    </div>
-                    <script type="text/javascript">
-                         $(".Downloadscontainer ul li ul").css("display", "none");
-                         $(".Downloadscontainer li").click(function (e) {
-                            e.stopPropagation();
-                            $(this).children('ul').toggle();
-                        }
-                            );
-                    </script>
-                    <div class="TeamContainer">
-                        <li><a href="#">Team</a>
-                        <ul style="list-style-type: none; font-size: 1.3rem;">
-                            <li><a href="board.html" title="team">Board</a></li>
-                            <li><a href="management.html" title="team">Management</a></li>
-                        </ul>
-                    </div>
-                    <script type="text/javascript">
-                         $(".TeamContainer ul li ul").css("display", "none");
-                         $(".TeamContainer li").click(function (x) {
-                            x.stopPropagation();
-                            $(this).children('ul').toggle();});
-                    </script>
-                    <!-- <li><a href="http://www.lxg-group.com/shop/blog/" title="blog" target="_blank">Blog</a></li>
-                    <li><a href="http://www.lxg-group.com/shop/" title="SHOP" target="_blank">Shop</a></li> -->
-                    <li><a href="partners.html" title="partners">Partners</a></li>
-                    <li><a href="contact.html" title="contact">Contact</a></li>
-                </ul>
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/lxg-group/"  target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- end header-nav__content -->
-
-        </nav>
-        <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="site-logo" href="index.html">
+            <img src="images/logo.jpg" alt="Homepage" style="height: 100px;">
         </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('../images/Ideas.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('../images/Ideas.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('../images/Ideas.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </header>
+
+
     <!-- end s-header -->
 
 
