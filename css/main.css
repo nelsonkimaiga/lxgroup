@@ -4636,11 +4636,6 @@ span.text-content {
 }
 
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
 
 .carousel-item {
   height: 65vh;

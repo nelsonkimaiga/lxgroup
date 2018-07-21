@@ -5,15 +5,9 @@
  */
 
 body {
-  padding-top: 54px;
   font-family: "Josefin Sans";
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
 
 .carousel-item {
   height: 92vh;
