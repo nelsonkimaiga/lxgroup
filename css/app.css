@@ -2384,3 +2384,58 @@ footer .row {
     0%   {width: 0;}
     100% {width: 100%; }
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.home-content__scroll {
+    position: absolute;
+    right: 9.5rem;
+    bottom: 8.4rem;
+}
+
+.home-content__scroll a {
+    font-family: "Josefin Sans";
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #1b308a;
+    position: relative;
+    display: inline-block;
+    line-height: 3rem;
+    padding-left: 2.5rem;
+}
+
+.home-content__scroll a::before {
+    border-bottom: 2px solid #1B308A;
+    border-right: 2px solid #1B308A;
+    content: '';
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-top: -6px;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.home-content__line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #1B308A;
+    position: absolute;
+    right: 7.2rem;
+    bottom: 0;
+}
