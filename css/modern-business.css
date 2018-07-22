@@ -29,11 +29,11 @@ h1, h2, h3, h4, h5, p{
 }
 
 .bg-dark {
-    background-color: #1f1d5e !important;
+    background-color: #e9e9e9 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #b79107;
+    color: #1f1d5e;
 }
 
 /* ------------------------------------------------------------------- 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-     color: #fff;
+     color: #b79107;
 }
 
 button:hover. button:focus {
@@ -81,3 +81,10 @@ border-color: #b8b8b8;
 color: #000000;
 outline: 0;
 }
+
+.dropdown-item:focus, .dropdown-item:hover{
+  color: #b79107;
+}
+
+/*e9e9e9
+#b79107;*/
