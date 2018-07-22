@@ -21,8 +21,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/base.css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
@@ -102,21 +104,21 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('images/Ideas.jpg');">
+          <div class="carousel-item active" style="background-image: url('images/Ideas.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>LXG Group</h3>
               <p>Leverage, Experience, Growth</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/working.jpg');">
+          <div class="carousel-item" style="background-image: url('images/working.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>LXG Group</h3>
               <p>Leverage, Experience, Growth</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/obstacles.jpg');">
+          <div class="carousel-item" style="background-image: url('images/obstacles.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>LXG Group</h3>
               <p>Leverage, Experience, Growth</p>
@@ -132,14 +134,25 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/lxg-group/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i><span>Linkedln</span></a>
+            </li>
+        </ul>
     </header>
 
-    <!-- about
+     <!-- about
     ================================================== -->
     <section id='about' class="s-about container">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-12">
+            <div class="col-lg-12">
                 <!-- <h3 class="subhead subhead-dark">Hello There</h3> -->
                 <h1 class="display-1 display-1--light">About Us</h1>
             </div>
@@ -147,33 +160,37 @@
         </div>
 
         <div class="row about-desc aos-init aos-animate" data-aos="fade-up">
-            <div class="col-12">
+            <div class="col-lg-12">
                 <p>
                     LXG Group is a diversified organization that focuses on Investment and Management solutions for its subsidiaries, joint ventures as well as for independent clients. We seek to leave our clients with an experience that is simply Extra-ordinary.
                 </p>   
             </div>
-            <hr>
         </div>
 
-        <!-- 3 columns -->
-        <div class="row container footer-main" style="font-size: 2.0rem;">
+        <hr class="row">
+        <br>
 
-             <div class="col-6">
+        <!-- 3 columns -->
+        <div class="row footer-main" style="font-size: 2.0rem; line-height: 1.75; ">
+
+             <div class="col-lg-6 tab-full left">
                  <h5 class="h5" style="text-align: center; color: #1B308A; font-weight: 900;">LXG Trinity</h5>
                     <p style="text-align: justify;">
                        Our Trinity serves to represent the foundations that guide us in achieving the best solutions in any situation which in turn creates a positive outcome to our businesses and clients.
                     </p>
-                    <ul type="square" style="text-align: left;">
-                        <li>Leverage</li>
-                        <li>Experience</li>
-                        <li>Growth</li>
+                    <br>
+                    <ul class="list-group list-group-flush" style="text-align: left;">
+                        <li class="list-group-item">Leverage</li>
+                        <li class="list-group-item">Experience</li>
+                        <li class="list-group-item">Growth</li>
                     </ul>
              </div>
-             <div class="col-6">
+             <div class="col-lg-6 tab-full right">
                  <h5 class="blockquote-title" style="text-align: center; color: #1B308A; font-weight: 900; font-size: 2.0rem;">Vision</h5>
                     <p style="text-align: justify;">
                         LXG Group will continue to look over and beyond the realms of the ordinary to enable it to become the leading provider of business solutions for Africa. As the world shines it light on Africa, LXG Group will be there to harness these opportunities and impact business activities across the continent.
                     </p>
+                    <br>
                     <h5 class="blockquote-title" style="font-weight: 900; color: #1B308A; text-align: center; font-size: 2.0rem;">Mission</h5>
                         <p>
                             To transform businesses by going the extra mile.
@@ -184,29 +201,28 @@
         <div class="about__line"></div>
 
     </section>
-    <!-- end s-about -->
-    <!-- footer
+     <!-- footer
     ================================================== -->
-       <footer style="background-color: #e9e9e9;">
+       <footer style="background-color: #e9e9e9;" class="container">
 
-        <div class="row container footer-main">
+        <div class="row footer-main">
 
-             <div class="col-6 tab-full footer-desc">
+             <div class="col-lg-6 tab-full left footer-desc">
 
                 <h3 class="subhead" style="color: #1B308A;">Our Partners</h3>
-                <div class="row container clients-outer" data-aos="fade-up">
+                <div class="clients-outer" data-aos="fade-up">
 
                         <div class="clients">
-                            <a href="http://synergy-pro.net" title="Synergy-Pro" target="_blank" class="" style="margin-right: 3px;">
+                            <a href="http://synergy-pro.net" title="Synergy-Pro" target="_blank" class="img-fluid" style="margin-right: 3px; width: 96px;">
                                 <img src="images/clients/synergy.png" width="auto">
                             </a>
-                            <a href="https://www.aaro.se" title="AARO" target="_blank" class="" style="margin-right: 3px;">
+                            <a href="https://www.aaro.se" title="AARO" target="_blank" class="img-fluid" style="margin-right: 3px; width: 96px;">
                                 <img src="images/clients/aaro-logo.png" />
                             </a>
-                            <a href="http://www.sbsl.co.ke" title="SBSL" target="_blank" class="" style="margin-right: 3px;">
+                            <a href="http://www.sbsl.co.ke" title="SBSL" target="_blank" class="img-fluid" style="margin-right: 3px; width: 96px;">
                                 <img src="images/sbsl.jpg">
                             </a>
-                            <a href="arcscene.com" title="arcscene" target="_blank" class="">
+                            <a href="arcscene.com" title="arcscene" target="_blank" class="img-fluid">
                                 <img src="images/arcsene.png">
                             </a>
                         </div>
@@ -218,15 +234,15 @@
             </div>
 
 
-            <div class="col-6 tab-full footer-subscribe">
+            <div class="col-lg-6 tab-full right footer-subscribe">
 
                 <h4 style="color: #1B308A;">Get Notified</h4>
                 <p>If you would like to receive our newsletter or receive email updates on what we are doing, add your email address and join our mailing list. You will be able to update your choices anytime.</p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
+                        <input type="email" value="" name="EMAIL" class="email form-control" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe" class="btn">
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
                 </div>
@@ -236,22 +252,24 @@
         </div>
         <!-- end footer-main -->
 
-        <div class="row footer-bottom">
+        <div class="container">
+          <div class="row footer-bottom">
 
-            <div class="col-12">
-                <div class="copyright">
-                    <span>&copy; LXG Group
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-                    </span>
-                </div>
+              <div class="col-lg-12">
+                  <div class="copyright">
+                      <span>&copy; LXG Group
+                  <script type="text/javascript">
+                      document.write(new Date().getFullYear());
+                  </script>
+                      </span>
+                  </div>
 
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
+                  <div class="go-top">
+                      <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                  </div>
+              </div>
 
+          </div>
         </div>
         <!-- end footer-bottom -->
     </footer>
@@ -260,7 +278,7 @@
 
     <!-- photoswipe background
     ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <div aria-hidden="true" class="pswp container" role="dialog" tabindex="-1">
 
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
