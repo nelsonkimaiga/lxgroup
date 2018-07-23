@@ -1149,7 +1149,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 3.8rem;
     line-height: 1.25;
     color: #000000;
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 .display-1--light {
@@ -4151,4 +4151,9 @@ div#slider figure {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.lists li{
+    display: list-item;
+    list-style-type: square;
 }
