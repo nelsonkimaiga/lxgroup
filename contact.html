@@ -22,7 +22,8 @@
     ================================================== -->
     <link rel="stylesheet" href="css/base.min.css">
     <link rel="stylesheet" href="css/vendor.min.css">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/micons//micons.css">
 
 
     <!-- script
@@ -46,87 +47,51 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
+     <!-- Navigation -->
+    <nav class="nav">
+     <div class="nav-center">
+        <a class="toggle-nav" href="#">&#9776;</a>
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.jpg" alt="Homepage">
-            </a>
+        <div class="nav-mobile">
+            <ul class="left">
+                <li>
+                  <a class="navbar-brand site-logo" href="index.html">
+                    <img src="images/logo.png" alt="Homepage" style="height: 99px; margin-top: -15px;">
+                  </a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li style="margin-top: 25px;">
+                    <a href="index.html" title="Home"> Home</a>
+                </li>
+                <li style="margin-top: 25px;" class="dropdown">
+                  <a href="#" class="dropbtn">Our Businesses <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                      <a class="dropdown-item" href="consultancy.html">Consulting Services</a>
+                      <a class="dropdown-item" href="building-construction.html">Building and Construction</a>
+                      <a class="dropdown-item" href="supply-management.html">Supply Chain Management</a>
+                      <a class="dropdown-item" href="automotive-sales.html">Automotive Sales and Tuning</a>
+                      <a class="dropdown-item" href="transport-logistics.html">Transport and Logistics</a>
+                      <a class="dropdown-item" href="food-and-beverage.html">Foods and Beverages</a>
+                      <a class="dropdown-item" href="entertainment.html">Entertainment and Recreation</a>
+                      <a class="dropdown-item" href="realty.html">Realty</a>
+                    </div>
+                </li>
+                <li style="margin-top: 25px;" class="dropdown">
+                  <a href="#" class="dropbtn">Team <i class="fa fa-caret-down"></i></a>
+                  <div class="dropdown-content">
+                    <a class="dropdown-item" href="board.html">Board</a>
+                    <a class="dropdown-item" href="management.html">Management</a>
+                  </div>
+                </li>
+                <li style="margin-top: 25px;"><a href="partners.html"> Partners</a></li>
+                <li style="margin-top: 25px;">
+                    <a href="contact.html"> Contact</a>
+                </li>
+            </ul>
         </div>
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-
-                <ul class="header-nav__list">
-                    <li class="current"><a href="index.html" title="home">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                    <div class="Downloadscontainer">
-                        <li><a href="#">Our Businesses</a>
-                        <ul style="list-style-type: none; font-size: 1.3rem;">
-                            <li><a href="consultancy.html" title="activities">Consulting Services</a></li>
-                            <li><a href="building-construction.html" title="activities">Building and Construction</a></li>
-                            <li><a href="supply-management.html" title="activities">Supply Chain Management</a></li>
-                            <li><a href="automotive-sales.html" title="activities">Automotive Sales and Tuning</a></li>
-                            <li><a href="transport-logistics.html" title="activities">Transport and Logistics</a></li>
-                            <li><a href="food-and-beverage.html" title="activities">Foods and Beverages</a></li>
-                            <li><a href="entertainment.html" title="activities">Entertainment and Recreation</a></li>
-                            <li><a href="realty.html" title="activities">Realty</a></li>    
-                        </ul>
-                    </div>
-                    <script type="text/javascript">
-                         $(".Downloadscontainer ul li ul").css("display", "none");
-                         $(".Downloadscontainer li").click(function (e) {
-                            e.stopPropagation();
-                            $(this).children('ul').toggle();
-                        }
-                            );
-                    </script>
-                    <div class="TeamContainer">
-                        <li><a href="#">Team</a>
-                        <ul style="list-style-type: none; font-size: 1.3rem;">
-                            <li><a href="board.html" title="team">Board</a></li>
-                            <li><a href="management.html" title="team">Management</a></li>
-                        </ul>
-                    </div>
-                    <script type="text/javascript">
-                         $(".TeamContainer ul li ul").css("display", "none");
-                         $(".TeamContainer li").click(function (x) {
-                            x.stopPropagation();
-                            $(this).children('ul').toggle();});
-                    </script>
-                    <!-- <li><a href="http://www.lxg-group.com/shop/blog/" title="blog" target="_blank">Blog</a></li>
-                    <li><a href="http://www.lxg-group.com/shop/" title="SHOP" target="_blank">Shop</a></li> -->
-                    <li><a href="partners.html" title="partners">Partners</a></li>
-                    <li><a href="contact.html" title="contact">Contact</a></li>
-                </ul>
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/lxg-group/"  target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- end header-nav__content -->
-
-        </nav>
-        <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header>
+        </div>
+    </nav>
 
 
         <!-- contact
