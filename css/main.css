@@ -1422,8 +1422,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   
 .nav{
     background: #ffffff;
-    min-height: 20px;
-    /*position: fixed;*/
+    min-height: 50px;
+    position: fixed;
     width: 100%;
     top: 0;
     font-family: "Josefin Sans";
@@ -1442,9 +1442,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 9px 15px;
     line-height: 30px;
 }
-.nav .left li a:hover{
+/*.nav .left li a:hover{
     background: #f2f2f2;
-}
+}*/
 
 .nav .right{
     float: right;
@@ -1704,7 +1704,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social a {
-    color: white;
+    color: #1b308a;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1736,7 +1736,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #FFFFFF;
+    border: 2px solid #1b308a;
     border-radius: 50%;
 }
 
@@ -4157,3 +4157,5 @@ div#slider figure {
     display: list-item;
     list-style-type: square;
 }
+
+.mySlides {display:none;}

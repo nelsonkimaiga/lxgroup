@@ -49,16 +49,18 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="nav">
+    <nav class="nav s-header">
      <div class="nav-center">
         <a class="toggle-nav" href="#">&#9776;</a>
 
         <div class="nav-mobile">
             <ul class="left">
                 <li>
-                  <a class="navbar-brand site-logo" href="index.html">
-                    <img src="images/logo.png" alt="Homepage" style="height: 99px; margin-top: -15px;">
-                  </a>
+                  <div class="header-logo">
+                    <a class="site-logo" href="index.html" title="Home">
+                        <img src="images/logo.png" alt="Homepage" height="111" width="152">
+                    </a>
+                  </div>
                 </li>
             </ul>
             <ul class="right">
@@ -85,7 +87,7 @@
                     <a class="dropdown-item" href="management.html">Management</a>
                   </div>
                 </li>
-                <li style="margin-top: 25px;"><a href="#"> Partners</a></li>
+                <li style="margin-top: 25px;"><a href="partners.html"> Partners</a></li>
                 <li style="margin-top: 25px;">
                     <a href="contact.html"> Contact</a>
                 </li>
@@ -94,15 +96,46 @@
         </div>
     </nav>
     <!-- slider -->
-    <div id="slider" style="margin-top: 125px;">
-      <figure>
-      <img src="images/Business.jpg" alt>
-      <img src="images/Ideas.jpg" alt>
-      <img src="images/Strategy.jpg" alt>
-      <img src="images/obstacles.jpg" alt>
-      <img src="images/Business.jpg" alt>
-      </figure>
+    <div class="w3-content w3-section">
+      <img class="mySlides" src="images/Business.jpg" style="width:100%">
+      <img class="mySlides" src="images/Ideas.jpg" style="width:100%">
+      <img class="mySlides" src="images/Inspire.jpg" style="width:100%">
+      <img class="mySlides" src="images/obstacles.jpg" style="width:100%">
+      <!-- about scroll -->
+      <div class="home-content__scroll" style="bottom: 10px;">
+            <a href="#about" class="scroll-link smoothscroll" title="About Us">
+                <span>More About Us</span>
+            </a>
+      </div>
+      <!-- home social -->
+      <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/lxg.groupKE" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/LXG_Group" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/lxg-group/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i><span>Linkedln</span></a>
+            </li>
+        </ul>
     </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
 <!-- about
     ================================================== -->
     <section id='about' class="s-about">
