@@ -1153,7 +1153,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #1f1d5e;
+    color: #b79107;
 }
 
 .display-2 {
@@ -1421,7 +1421,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /****************************NAV BAR************************************/
   
 .nav{
-    background: #ffffff;
+    background: #e9e9e9;
     min-height: 50px;
     position: fixed;
     width: 100%;
@@ -4159,3 +4159,7 @@ div#slider figure {
 }
 
 .mySlides {display:none;}
+
+.headings{
+    color: #b79107;
+}
