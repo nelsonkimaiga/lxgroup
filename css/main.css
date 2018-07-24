@@ -4149,7 +4149,9 @@ div#slider figure {
     list-style-type: square;
 }
 
-.mySlides {display:none;}
+.mySlides {
+    display:none;
+}
 
 .headings{
     color: #b79107;
