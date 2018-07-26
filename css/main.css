@@ -1413,7 +1413,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /****************************NAV BAR************************************/
   
 .nav{
-    background: #D3D3D3;
+    background: #d7d7d7;
     min-height: 50px;
     position: fixed;
     width: 100%;
