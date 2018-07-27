@@ -1153,7 +1153,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #b79107;
+    color: #d48a05;
 }
 
 .display-2 {
@@ -1452,7 +1452,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #1f1d5e;
 }
 .nav .right li a:hover{
-    background: #b79107;
+    background: #d48a05;
 }
 
 .toggle-nav{
@@ -1695,7 +1695,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social a {
-    color: #ffffff;
+    color: #d48a05;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1727,12 +1727,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #ffffff;
+    border: 2px solid #d48a05;
     border-radius: 50%;
 }
 
 .home-social span {
-    color: #1B308A;
+    color: #d48a05;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
