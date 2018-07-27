@@ -1637,9 +1637,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__scroll a {
     font-family: "Josefin Sans";
     font-size: 1rem;
+	font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #1b308a;
+    color: #d48a05;
     position: relative;
     display: inline-block;
     line-height: 3rem;
@@ -1647,8 +1648,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #1B308A;
-    border-right: 2px solid #1B308A;
+    border-bottom: 2px solid #d48a05;
+    border-right: 2px solid #d48a05;
     content: '';
     display: block;
     height: 8px;
